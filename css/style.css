@@ -1,0 +1,42 @@
+@import'utilites.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header{
+    background-color: var(--dark);
+    height:800px;
+}
+
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none ;
+}
+header nav{
+    padding:2rem 0;
+}
+header nav .logo{
+    margin-right:3rem;
+
+}
